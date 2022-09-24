@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local MainWindow = OrionLib:MakeWindow({Name = "Tower Of Misery", HidePremium = true, SaveConfig = false, ConfigFolder = "TowerOfMisery"})
+local MainWindow = OrionLib:MakeWindow({Name = "Hide And Seek Extreme", HidePremium = true, SaveConfig = false, ConfigFolder = "HAS"})
 local Home = MainWindow:MakeTab({
 	Name = "Music",
 	Icon = "rbxassetid://4483345998",
