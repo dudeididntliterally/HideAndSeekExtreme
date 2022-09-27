@@ -1,12 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local MainWindow = OrionLib:MakeWindow({Name = "Hide And Seek Extreme", HidePremium = true, SaveConfig = false, ConfigFolder = "HAS"})
 local Home = MainWindow:MakeTab({
-	Name = "Music",
+	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 local HomeSection = Home:AddSection({
-	Name = "Music"
+	Name = "Main"
 })
 wait()
 OrionLib:MakeNotification({
